@@ -1,0 +1,21 @@
+body {
+    background-color: papayawhip;
+  }
+.page {
+     background-color: orange;
+   }
+
+ 
+   .multi{
+    column-count: 3;
+    column-gap: 5em;
+    column-rule: 2px dotted brown;
+}
+
+@media (max-width: 800px){				
+    .multi{
+            columns: 2 200px;
+            column-gap: 5em;
+            column-rule: 3px solid black;
+        }
+}

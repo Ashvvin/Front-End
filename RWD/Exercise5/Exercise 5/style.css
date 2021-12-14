@@ -1,0 +1,29 @@
+@media (max-width: 640px)
+{
+    body 
+    {
+        font-size:1.2rem; background: cyan; }
+  
+}
+@media (min-width: 640px) 
+  { 
+    body {font-size:3rem; background: blue;  }
+    
+  }
+@media (min-width:960px)  
+  {
+      body {font-size:1.2rem;  background: green; } 
+      
+   } 
+@media (min-width:1100px)  
+  {
+      body { font-size:1.5rem; background: yellow; } 
+  }
+
+body {
+    background-color: papayawhip;
+}
+.page {
+    background-color: orange;
+            
+}

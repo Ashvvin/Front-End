@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>OffCanvas Layout</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+</script>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="http://127.0.0.1:5500/MultiColumn.html">Angular</a>
+  <a href="http://127.0.0.1:5500/MultiColumn.html">React</a>
+  <a href="http://127.0.0.1:5500/MultiColumn.html">Vue</a>
+</div>
+
+<div id="main">
+        <h1> Online Tutor</h1>
+        <h2>It's a platform to teach learners about various technologies related to "Web Development".</h2>
+     <h3><span onclick="openNav()"> <u>Click here</u></span> to select your favourite course</h3>
+   <br>
+   <img src="imgs/res.jpg" >
+
+</div>
+<br>
+
+   
+</body>
+</html> 

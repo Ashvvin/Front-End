@@ -1,0 +1,17 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: rgb(247, 216, 177);
+ }
+h1,
+h2 {
+   text-align: center;
+}
+#main {
+     background-color: rgb(199, 245, 245);
+     width: 100%;
+  }
+.imgwrap {
+       max-width: 100%;
+       height: auto;
+       opacity: 0.7;
+    }

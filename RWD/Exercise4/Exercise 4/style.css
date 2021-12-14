@@ -1,0 +1,41 @@
+body {
+    background-color: papayawhip;
+}
+.page {
+    background-color: orange;
+}
+nav {
+    display: block;
+    width: 75%;
+    margin-left: 30%;
+}
+nav ul {
+     list-style: none;
+  }
+nav li {
+      display: inline-block;
+  }
+nav a {
+   display: inline-block;
+   background: rgb(240, 225, 225);
+   color: black;
+   padding: 5px 50px;
+   border: 1px solid white;
+   text-decoration: none;
+ }
+nav a:hover {
+          border: 1px solid orange;
+          background: orange;
+        }
+nav a:active {
+           background: blue;
+         }
+nav select {
+           display: none;
+        }
+        
+@media (max-width: 600px) {
+        nav ul     { display: none; }
+        nav select { display: inline-block; }
+     }
+
